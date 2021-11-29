@@ -4,12 +4,11 @@ import {
   Switch,
   Route,
   Link
-} from 'react-dom';
-import Home from './components/home';
-import Detail from './components/detail';
-import Discover from './components/discover';
-import { FaHome, FaSearch, FaUser } from 'react-icons/fa'
-
+} from "react-router-dom";
+import Home from "./components/home";
+import Detail from "./components/detail";
+import Discover from "./components/discover";
+import { FaHome, FaSearch, FaUser } from "react-icons/fa";
 
 function App() {
   return (

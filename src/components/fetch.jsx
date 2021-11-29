@@ -5,7 +5,7 @@ const BASE_URL = 'https://api.themovie.org/3';
 const api_key = '6af4c8b3996dc77c45a6ed3f072e87c5';
 
 function FetchHome() {
-    let arr = [];
+    //let arr = [];
 
     const [data, setData] = React.useState([]);
 
@@ -13,7 +13,7 @@ function FetchHome() {
 
     const getUpcoming = api.get('/trending/movie/week', {params: {api_key}});
 
-    const getImage = (path) => `https://image.tmbd.org/t/p/w500/${path}`;
+    //const getImage = (path) => `https://image.tmbd.org/t/p/w500/${path}`;
 
     React.useEffect(() => {
         getUpcoming.then(response => {
